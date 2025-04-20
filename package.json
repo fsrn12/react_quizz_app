@@ -1,0 +1,29 @@
+{
+  "name": "30-quizzapp",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "vite.config.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "json-server --watch src/data/questions.json --port 9000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react-swc": "^3.9.0",
+    "prettier": "^3.5.3",
+    "vite": "^6.3.2"
+  }
+}
